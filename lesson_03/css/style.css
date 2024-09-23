@@ -1,0 +1,64 @@
+@import url("reset.css");
+
+.title {
+	color: red;
+}
+
+.text-block {
+	color: greenyellow
+}
+
+.climate h2 {
+	color: blue;
+}
+
+.climate h2~p {
+	color: aqua;
+}
+
+.population h2 {
+	color: red;
+}
+
+.population h2+p {
+	color: blue;
+}
+
+.transport,
+.cooking {
+	color: darkgoldenrod;
+}
+
+
+.transport>div {
+	color: darkmagenta;
+}
+
+.ol-list .item {}
+
+[href] {
+	color: red;
+}
+
+[class|="ol"] {
+	color: deeppink;
+}
+
+[class^="ul"] {
+	color: deepskyblue;
+}
+
+[class$="item"] {
+	color: grey;
+}
+
+[class*="it"] {
+	color: fuchsia;
+}
+
+[class~="medicine"] h2 {
+	color: blue;
+}
+
+
+.ul-list {}
