@@ -1,0 +1,74 @@
+@import url("reset.css");
+
+/* * {
+	color: green;
+} */
+
+h2 {
+	color: blue;
+}
+
+.title {
+	color: red;
+}
+
+#some-id {
+	color: green;
+}
+
+[href] {
+	color: blueviolet;
+}
+
+[title~="Підказка"] {
+	color: brown;
+}
+
+[title|="Температура"] {
+	color: rgb(0, 139, 37);
+}
+
+[class^="list"] {
+	color: red;
+}
+
+[class$="items"] {
+	color: blueviolet;
+}
+
+[class*="te"] {
+	color: aqua;
+}
+
+div.text {
+	color: blue;
+}
+
+.text,
+.title {
+	color: red;
+}
+
+.list .item {
+	color: rgb(0, 139, 53);
+}
+
+.text.list {
+	color: red;
+}
+
+.list-items+div {
+	color: crimson;
+}
+
+.lesson>div {
+	color: blue;
+}
+
+.title-2~p {
+	color: greenyellow;
+}
+
+.article h2 {
+	color: red;
+}
