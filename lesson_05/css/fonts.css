@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@500&display=swap');
 
 @font-face {
-    font-family: "Manrope", serif;
+    font-family: "Manrope";
     font-style: normal;
     font-weight: 400;
     font-display: swap;
@@ -14,7 +14,7 @@
 }
 
 @font-face {
-    font-family: "Manrope", serif;
+    font-family: "Manrope";
     font-style: normal;
     font-weight: 500;
     font-display: swap;
@@ -22,7 +22,7 @@
 }
 
 @font-face {
-    font-family: "Manrope", serif;
+    font-family: "Manrope";
     font-style: normal;
     font-weight: 600;
     font-display: swap;
@@ -30,7 +30,7 @@
 }
 
 @font-face {
-    font-family: "Manrope", serif;
+    font-family: "Manrope";
     font-style: normal;
     font-weight: 700;
     font-display: swap;
@@ -38,7 +38,7 @@
 }
 
 @font-face {
-    font-family: "Archivo", serif;
+    font-family: "Archivo";
     font-style: normal;
     font-weight: 500;
     font-display: swap;
@@ -46,7 +46,7 @@
 }
 
 @font-face {
-    font-family: "Inter", serif;
+    font-family: "Inter";
     font-style: normal;
     font-weight: 500;
     font-display: swap;
@@ -54,7 +54,7 @@
 }
 
 @font-face {
-    font-family: 'Roboto-Regular';
+    font-family: 'Roboto Regular';
     src: url("../Roboto-Regular.woff2") format('woff2');
     font-style: normal;
     font-weight: 400;
@@ -63,7 +63,7 @@
 }
 
 @font-face {
-    font-family: 'Roboto-Medium';
+    font-family: 'Roboto Medium';
     src: url("../Roboto-Medium.woff2") format('woff2');
     font-style: normal;
     font-weight: 500;
@@ -71,7 +71,7 @@
 }
 
 @font-face {
-    font-family: 'Roboto-Bold';
+    font-family: 'Roboto Bold';
     src: url("../Roboto-Bold.woff2") format('woff2');
     font-style: normal;
     font-weight: 700;
@@ -79,7 +79,7 @@
 }
 
 @font-face {
-    font-family: 'Roboto-Black';
+    font-family: 'Roboto Black';
     src: url("../Roboto-Black.woff2") format('woff2');
     font-style: normal;
     font-weight: 900;
