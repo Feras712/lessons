@@ -316,11 +316,11 @@
 }
 
 .batton-kit {
+    display: inline-block;
     width: 189px;
     height: 36px;
     border-radius: 2px;
     background: #111B47;
-    display: inline-block;
     color: #FFF;
     text-align: center;
     font-family: "Roboto", serif;
