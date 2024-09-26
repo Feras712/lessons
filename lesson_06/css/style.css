@@ -1,0 +1,353 @@
+@import Url("fonts.css");
+@import url("reset.css");
+
+body {
+	background-attachment: local;
+}
+
+.border {
+	background-color: blue;
+	width: 1200px;
+	height: 150px;
+	border: 10px solid crimson;
+	border-radius: 30px 0 30px 0;
+	margin-bottom: 30px;
+	border-top-width: 5px;
+	border-right-color: darkmagenta;
+	border-bottom-style: double;
+	border-left-color: transparent;
+	overflow: hidden;
+
+}
+
+.outline {
+	background-color: yellow;
+	width: 1200px;
+	height: 150px;
+	outline: 10px dashed black;
+	outline-offset: 10px;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+
+.shadow {
+	background-color: chartreuse;
+	width: 1200px;
+	height: 150px;
+	margin-bottom: 30px;
+	box-shadow: 2px 2px 10px 3px black, inset 2px 5px 3px #000000;
+	overflow-y: scroll;
+	background-attachment: local;
+
+
+}
+
+.bg-color {
+	background-color: darkgreen;
+	outline-style: dotted;
+	outline-width: 10px;
+	outline-color: red;
+	width: 1200px;
+	height: 150px;
+	margin-bottom: 30px;
+	opacity: 0.3;
+}
+
+.bg-image {
+	background-image: url("../img/repeat.jpg");
+	width: 1200px;
+	height: 150px;
+	margin-bottom: 30px;
+	visibility: hidden;
+}
+
+.bg-position {
+	background-image: url("../img/honey.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom 10px right 20px;
+	background-position: 30px 20px;
+	width: 1200px;
+	height: 150px;
+	border: 1px solid black;
+	margin-bottom: 30px;
+}
+
+.bg-size {
+	background-image: url("../img/repeat.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 400px 200px;
+	/* background-size: 210px 50px; */
+	/* background-size: auto; */
+	background-size: contain;
+	background-size: cover;
+	width: 1200px;
+	height: 150px;
+	margin-bottom: 30px;
+}
+
+.attachment {
+	background-image: url("../img/honey.jpg");
+	background-attachment: fixed;
+	/* background-attachment: local; */
+	width: 1200px;
+	height: 150px;
+	margin-bottom: 30px;
+}
+
+.bg-repeat {
+	background-image: url("../img/card-image.jpg");
+	border: 1px inset black;
+	background-size: 100px;
+	background-repeat: space;
+	background-repeat: round;
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+	width: 1200px;
+	height: 300px;
+	margin-bottom: 30px;
+}
+
+.home {
+	background: linear-gradient(180deg, #141414 0%, rgba(20, 20, 20, 0.00) 100%);
+	min-height: 836px;
+	font-family: "Manrope", serif;
+}
+
+.home-header {
+	padding-block: 24px;
+	padding-inline: 80px;
+}
+
+.home-container {
+	max-width: 1440px;
+	margin: 0 auto;
+
+}
+
+.header-logo {
+	display: inline-block;
+	vertical-align: middle;
+
+
+}
+
+.header-icon {}
+
+.header-vector {
+	background: url("../img/header_icon.svg") center no-repeat, url("../img/header_vector.svg") no-repeat;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.header-vibe {
+	display: inline-block;
+	width: 113.333px;
+	height: 16.667px;
+
+}
+
+.header-nav {
+	display: inline-block;
+	min-width: 412px;
+	margin: 18px 300px;
+	text-align: center;
+	vertical-align: middle;
+
+
+}
+
+.nav-items {
+	display: inline-block;
+	padding: 8px 30px 8px 8px;
+	border-radius: 10px;
+	border: 3px solid #1F1F1F;
+	background: #0F0F0F;
+}
+
+.nav-item {
+	display: inline-block;
+	border-radius: 8px;
+	border: 1px solid #1A1A1A;
+	background: #1A1A1A;
+	margin-right: 16px;
+	padding-block: 12px 20px;
+	min-width: 80px;
+}
+
+.link-text {
+	color: #BFBFBF;
+	font-family: "Manrope", serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	text-align: center;
+
+}
+
+.header-button {
+	display: inline-block;
+}
+
+.button-search {
+	display: inline-block;
+}
+
+.button-bell {
+	display: inline-block;
+}
+
+.home-content {
+	background: linear-gradient(180deg, rgba(20, 20, 20, 0.00) 0%, #141414 100%);
+
+}
+
+.home-abstract {
+	min-height: 481px;
+	background: url("../img/content_vector.svg") center/101.759px 101.759px no-repeat, url("../img/header_vector.svg") center/300px 300px no-repeat, linear-gradient(180deg, rgba(20, 20, 20, 0.00) 0%, #141414 100%);
+
+}
+
+.home-footer {
+	padding-inline: 150px;
+	background: #141414;
+
+}
+
+.footer-title {
+	color: #FFF;
+	text-align: center;
+	font-family: "Manrope", serif;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 150%;
+}
+
+.footer-text {
+	color: #999;
+	text-align: center;
+	font-family: "Manrope", serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	margin-bottom: 40px;
+}
+
+
+.footer-button {
+	display: block;
+	border-radius: 8px;
+	background: #E50000;
+	padding: 14px 24px;
+	color: #FFF;
+	font-family: "Manrope", serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 150%;
+	max-width: fit-content;
+	margin: 0 auto;
+
+}
+
+.footer-button span {
+	background: url("../img/footer-icon.svg") left / 20px no-repeat;
+	padding-left: 50px;
+	display: inline-block;
+	min-height: 20px;
+
+}
+
+.block-wraper {
+	font-family: "Epilogue", serif;
+	background: #FDF0E9;
+	max-height: fit-content;
+}
+
+.block-container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.block-text {
+	max-width: 600px;
+	display: inline-block;
+	text-align: left;
+	margin-top: 30px;
+}
+
+.block-title {
+	color: #391400;
+	font-family: "Epilogue", serif;
+	font-size: 56px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 64px;
+	letter-spacing: -1px;
+	margin-bottom: 26px;
+}
+
+.text-row {
+	width: 470px;
+	height: 72px;
+	color: #391400;
+	font-family: "Epilogue", serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 32px;
+	margin-bottom: 26px;
+}
+
+.block-list {
+	width: 470px;
+	height: 72px;
+	color: #391400;
+	font-family: "Epilogue", serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 32px;
+}
+
+.list-items {}
+
+.list-item {
+	background: url("../img/check.svg") 0 0 / 32px no-repeat;
+	margin-bottom: 10px;
+	padding-left: 50px;
+	min-height: 35px;
+	color: rgba(57, 20, 0, 0.64);
+	font-family: "Epilogue", serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 32px;
+}
+
+.block-pictures {
+	display: inline-block;
+	max-width: 515px;
+	text-align: right;
+	/* background: url("../img/bitmap.png"); */
+}
+
+.picture-mask {
+	width: 184px;
+	height: 184px;
+	background: url("../img/bitmap.png") center / 113px 169px no-repeat, #B550F8;
+	border-radius: 50%;
+
+
+}
+
+.picture-bitmap {
+	width: 470px;
+	height: 290px;
+	background: url("../img/bitmap_2.png") 0px 0px / 470px 290px no-repeat, url("../img/path.svg") left bottom / 215px 130px no-repeat;
+}

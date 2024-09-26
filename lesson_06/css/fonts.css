@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Epilogue:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic");
+
+
+@font-face {
+	font-family: "Manrope", serif;
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+
+}
+
+@font-face {
+	font-family: "Manrope", serif;
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+
+}
+
+@font-face {
+	font-family: "Manrope", serif;
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+
+}
+
+@font-face {
+	font-family: "Manrope", serif;
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+
+}
+
+@font-face {
+	font-family: "Epilogue", serif;
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+
+}
+
+@font-face {
+	font-family: "Epilogue", serif;
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+
+}
+
+@font-face {
+	font-family: "Epilogue", serif;
+	font-style: normal;
+	font-weight: 800;
+	font-display: swap;
+
+}
+
+@font-face {
+	font-family: "Epilogue", serif;
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+
+}
