@@ -266,7 +266,8 @@ body {
 .block-wraper {
 	font-family: "Epilogue", serif;
 	background: #FDF0E9;
-	max-height: fit-content;
+
+
 }
 
 .block-container {
@@ -276,6 +277,7 @@ body {
 
 .block-text {
 	max-width: 600px;
+	height: 500px;
 	display: inline-block;
 	text-align: left;
 	margin-top: 30px;
@@ -334,6 +336,7 @@ body {
 .block-pictures {
 	display: inline-block;
 	max-width: 515px;
+	height: 500px;
 	text-align: right;
 	margin-top: 30px;
 
